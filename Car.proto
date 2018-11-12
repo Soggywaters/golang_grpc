@@ -1,0 +1,18 @@
+message vehicle {
+
+    //required
+    required string VIN = 1;
+    optional int32 year = 2;
+    optional string make = 3;
+    optional string model = 4;
+
+    enum color {
+        RED = 0;
+        BLUE = 1;
+        GREEN = 2;
+    }
+
+    optional color clr = 5;
+
+}
+
