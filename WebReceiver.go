@@ -1,4 +1,4 @@
-package Personal
+package grpcGoLang
 
 import (
 	"google.golang.org/grpc/reflection"

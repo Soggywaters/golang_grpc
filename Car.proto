@@ -1,10 +1,13 @@
+syntax = "proto3";
+package grpcGoLang;
+
 message vehicle {
 
     //required
-    required string VIN = 1;
-    optional int32 year = 2;
-    optional string make = 3;
-    optional string model = 4;
+    string VIN = 1;
+    int32 year = 2;
+    string make = 3;
+    string model = 4;
 
     enum color {
         RED = 0;
@@ -12,7 +15,7 @@ message vehicle {
         GREEN = 2;
     }
 
-    optional color clr = 5;
+    color clr = 5;
 
 }
 
